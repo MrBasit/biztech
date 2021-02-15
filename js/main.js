@@ -24,3 +24,14 @@ toggler.addEventListener('click',()=>{
 //         open = false;
 //     }
 // }
+
+
+// prevent default
+document.querySelector('body').addEventListener('click', preventDflt);
+function preventDflt(e){
+  var tElment = e.target.getAttribute('href');
+  var tElmentP = e.target.parentElement.getAttribute('href');
+  if(tElment == '#' || tElmentP == '#'){
+    e.preventDefault();
+  }
+}
