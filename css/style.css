@@ -71,7 +71,7 @@ p{
     padding: 5px;
 }
 #header .list ul li:nth-child(n+2) a{
-  cursor: not-allowed;
+  /* cursor: not-allowed; */
 }
 .header__burgermenu{
     display: none;
@@ -162,7 +162,6 @@ p{
     background: white;
     color: orange;
     border: 1px solid #b4671fab;
-    cursor: not-allowed;
 }
 #showcase .social{
     display: flex;
@@ -175,9 +174,6 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.icon a{
-  cursor: not-allowed;
 }
 #showcase .social i{
     font-size: 25px;
@@ -272,9 +268,7 @@ p{
     background: url('../img/hands-img.png') no-repeat center center/cover;
 
 }
-.solution-img a{
-  cursor: not-allowed;
-}
+
 .solution-img i{
     font-size: 50px;
     color: white;
